@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lily.Demo.DI.Module1\Lily.Demo.DI.Module1.csproj" />
+    <ProjectReference Include="..\Lily.Demo.DI.Module2\Lily.Demo.DI.Module2.csproj" />
+    <ProjectReference Include="..\Lily.Demo.DI.Shared\Lily.Demo.DI.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
