@@ -45,3 +45,4 @@ test/unit/Honeywell.Infra.Services.Isom.UnitTests/coverage.opencover.xml
 test/unit/Honeywell.Infra.Services.Isom.UnitTests/report/
 tests/unit/Honeywell.Infra.Services.Isom.UnitTests/report
 /tests/unit/Honeywell.Infra.Services.Isom.UnitTests/coverage.opencover.xml
+/samples/plugins

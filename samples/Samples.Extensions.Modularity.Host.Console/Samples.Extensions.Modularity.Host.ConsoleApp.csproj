@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Samples.Extensions.Modularity.Module1\Samples.Extensions.Modularity.Module1.csproj" />
+  </ItemGroup>
+
+  <Target Name="BuildPlugin" BeforeTargets="Build">
+    <MSBuild Projects="..\Samples.Extensions.Modularity.Module1.csproj" Targets="Publish" Properties="Configuration=$(Configuration);PublishDir=$(OutputPath)/plugins/Module1/" />
+    <MSBuild Projects="..\Samples.Extensions.Modularity.Module2.csproj" Targets="Publish" Properties="Configuration=$(Configuration);PublishDir=$(OutputPath)/plugins/Module2/" />
+  </Target>
+</Project>

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <Target Name="BuildPlugin" BeforeTargets="Build">
+    <MSBuild Projects="..\Samples.Extensions.Modularity.Module1\Samples.Extensions.Modularity.Module1.csproj" Targets="Publish" Properties="Configuration=$(Configuration);PublishDir=../plugins/Module1/" />
+    <MSBuild Projects="..\Samples.Extensions.Modularity.Module2\Samples.Extensions.Modularity.Module2.csproj" Targets="Publish" Properties="Configuration=$(Configuration);PublishDir=../plugins/Module2/" />
+    <MSBuild Projects="..\Samples.Extensions.Modularity.ModuleOfAspNetCore\Samples.Extensions.Modularity.ModuleOfAspNetCore.csproj" Targets="Publish" Properties="Configuration=$(Configuration);PublishDir=../plugins/ModuleOfAspNetCore/" />
+  </Target>
+
+</Project>
