@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Extensions.Modulari
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Extensions.Modularity.ModuleOfAspNetCore", "..\..\samples\Samples.Extensions.Modularity.ModuleOfAspNetCore\Samples.Extensions.Modularity.ModuleOfAspNetCore.csproj", "{6CDA819A-8BCE-49E5-B5AE-4B4E83AD510F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lily.Extensions.Modularity.Plugins.Abstractions", "Lily.Extensions.Modularity.Plugins.Abstractions\Lily.Extensions.Modularity.Plugins.Abstractions.csproj", "{CCF575FB-12DF-419E-B6EC-E22A3F3EDDD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{6CDA819A-8BCE-49E5-B5AE-4B4E83AD510F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CDA819A-8BCE-49E5-B5AE-4B4E83AD510F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CDA819A-8BCE-49E5-B5AE-4B4E83AD510F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF575FB-12DF-419E-B6EC-E22A3F3EDDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF575FB-12DF-419E-B6EC-E22A3F3EDDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF575FB-12DF-419E-B6EC-E22A3F3EDDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF575FB-12DF-419E-B6EC-E22A3F3EDDD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +93,7 @@ Global
 		{DD63CD9C-84A6-408F-B17A-687967229797} = {AEC2026F-155C-4E63-9C42-02541DECA166}
 		{B022FACA-717C-4316-BB1B-8CA9B37E7A24} = {AEC2026F-155C-4E63-9C42-02541DECA166}
 		{6CDA819A-8BCE-49E5-B5AE-4B4E83AD510F} = {AEC2026F-155C-4E63-9C42-02541DECA166}
+		{CCF575FB-12DF-419E-B6EC-E22A3F3EDDD4} = {E9432591-2C95-4A23-9C88-F7EF6C4F8C6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2ED07A2-3136-4D2F-A22E-0DC3C2E33241}
